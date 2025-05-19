@@ -1,0 +1,15 @@
+.banner{
+    background: url({{ asset('front/banner.jpg') }})no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+
+.kontak {
+background: url({{ asset('front/banner.jpg') }}) no-repeat center center;
+background-size: cover;
+padding-bottom: 20%;
+padding-top: 20%;
+
+}
