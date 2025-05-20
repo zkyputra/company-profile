@@ -31,7 +31,7 @@
     }
 
     .kontak {
-    color: #cccccc;
+    color: #272727;
     background: url({{ asset('front/bg-kontak.jpg') }}) no-repeat center center;
     background-size: cover;
     padding-bottom: 20%;
@@ -61,7 +61,7 @@
 
     <div class="container-fluid layanan pt-5 pb-5">
         <div class="container text-center">
-        <h2 class="display-3" id="layanan">Layanan</h2>
+        <h2 class="display-3" id="layanan"><b>Layanan</b></h2>
         <p>
             Kami melayani
         </p>
@@ -86,7 +86,7 @@
 
     <div class="container-fluid pt-5 pb-5">
         <div class="container">
-        <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+        <h2 class="display-3 text-center" id="tentang"><b>Tentang</b></h2>
         <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ex!
         </p>
@@ -120,7 +120,7 @@
 
     <div class="container-fluid pt-5 pb-5 kontak">
         <div class="container">
-            <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+            <h2 class="display-3 text-center" id="kontak"><b>Kontak Kami</b></h2>
         <form action="{{ route('kontak.store') }}" method="POST">
             @csrf
             <div class="row pb-3">
